@@ -10,15 +10,15 @@ This project is inspired by an article on the CSDN blog (https://blog.csdn.net/m
 
 ### 1. Environment Preparation
 
-Ensure that [Python 3.12.0](https://www.python.org/downloads/) or a later version is installed on your computer.
+Ensure that [Python 3.12.0](https://www.python.org/downloads/) or a later version is installed on your windows computer.
+
+Currently only supports Windows systems.
 
 ### 2. Installing Dependencies
 
 This project may rely on third-party libraries, such as PyInstaller, which can be used to compile scripts into executable files and grant read-write permissions to files during runtime. You can install them using the `pip` command.
 
 ```bash
-bash复制代码
-
 pip install pyinstaller
 ```
 
@@ -27,7 +27,7 @@ pip install pyinstaller
 Enter the project directory and run the main program, ensuring you have read-write permissions.
 
 ```bash
-cd CrackTypora  
+cd CrackTypora
 python crack_typora.py
 ```
 
